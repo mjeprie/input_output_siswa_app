@@ -9,8 +9,8 @@ def tampilkan_kelas(daftar_kelas):
 daftar_kelas = ['X IPA 1', 'X IPA 2', 'X IPS 1', 'X IPS 2']
 
 for kelas in daftar_kelas:
-    if not os.path.exists('data/'+kelas):
-        with open('data/'+kelas+'.txt', 'w') as file:
+    if not os.path.exists('data/' + kelas + '.txt'):
+        with open('data/' + kelas + '.txt', 'w') as file:
             pass
 
 while True:
@@ -56,4 +56,3 @@ while True:
 
         case '4':
             exit()
-            
